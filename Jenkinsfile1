@@ -8,7 +8,7 @@ pipeline {
                 ls -ltr
                 pwd
 
-                echo "hellow script"
+                echo "hellow from git hub push webhook eventt"
               '''
             }
         }
