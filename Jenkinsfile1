@@ -17,12 +17,12 @@ pipeline {
             }
         }
     }
-    post{
+    post {
         always {
-            echo ' i will always run weather it sucess or failure'
+            echo 'i will always run weather it success or failure'
         }
-        sucess {
-            echo 'i will run only job is sucess'
+        success {
+            echo 'i will run only job is success'
         }
         failure {
             echo 'i will run only fail'
